@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            YouTube downloader
+        </title>
+
+        <script src="./scripts/main.js" defer></script>
+
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+
+    <body>
+        <main>
+            <div class="url-container">
+                <div>
+                    <div>
+                        Введите ссылку на видео:
+                    </div>
+
+                    <div class="url-wrapper">
+                        <input type="text" placeholder="Введите ссылку на видео" id="inputUrl" class="input-url">
+
+                        <button id="btnDownload">
+                            Скачать
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="video-info"></div>
+
+            <div id="formatlist-container"></div>
+        </main>
+    </body>
+</html>
